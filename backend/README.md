@@ -4,7 +4,7 @@ VERY simple back-end and front-end applications are used.
 To run this code:
 1. cd backend
 2. npm install
-3.cd backend/frontend
+3. cd backend/frontend
 4. npm install
 5. cd backend
 6. npm run dev
