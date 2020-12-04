@@ -1,0 +1,165 @@
+.container {
+  margin: 36px auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  padding: 16px 0;
+  color: rgb(26, 68, 117);
+  text-align: center;
+}
+
+.search-label {
+  position: relative;
+  width: 50%;
+}
+
+.App-header {
+
+  background-color: #9a8bee;
+  color: #f1f1f1;
+  text-shadow: #701010;
+}
+
+.Navbar{
+  color: #898989;
+}
+
+.Design{
+  color: #f1f1f1;
+}
+
+.container input {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(30, 12, 112);
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 26px;
+  font-size: 34px;
+  color: rgb(13, 21, 97);
+  right: 18px;
+}
+
+.results-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+
+
+.result-item {
+  display: block;
+  position: relative;
+  padding: 3px;
+  border: 1px solid #7c0909;
+  margin: 40px;
+  text-align: center;
+  min-width: 410px;
+  min-height: 310px;
+  box-shadow: 2px 2px 2px #130369;
+}
+
+.image-username {
+  color: #d4cccc;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgb(23, 128, 146);
+  padding: 10px 10px;
+}
+
+s
+
+.image-wraper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.image {
+  height: 95%;
+  width: 200px;
+}
+
+/* loader */
+.search-loading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* show and hide */
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+/* Prev and Next */
+.nav-link-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: rgb(109, 9, 9);
+  text-decoration: none;
+  border: 1px solid #898989;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.greyed-out {
+  background: #f1f1f1;
+  opacity: 0.5;
+}
+
+.btn {
+  margin: 18px 5px 5px 5px;
+}
+
+/* favorite section */
+
+.row-container {
+  text-align: left;
+}
+
+.favourite-image {
+  height: 120px;
+  width: 120px;
+}
+
+.favorite {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  height: 250px;
+  width: 55%;
+  overflow: hidden;
+  border: 3px solid rgb(126, 13, 13);
+  overflow-y: scroll;
+}
+
+.favorite-username {
+  overflow-x: hidden;
+}
